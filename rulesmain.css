@@ -1,0 +1,71 @@
+@media only screen and (min-width: 300px) 
+{
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+}
+}
+.dscore
+{
+    margin: auto;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+.score,.chance
+{
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: teal;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.rule, .number
+{   display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.s2{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.guessbtn, .restart {
+    background-color:black; 
+    margin-left: 20px;
+    border: whitesmoke;
+    width: 100px;
+    color:whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 3px solid whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  .guessbtn:hover, .restart:hover {
+    background-color:whitesmoke;
+    color: black;
+    font-size: 18px;
+  }
+  #s1{
+    display: flex;
+    justify-content: center;
+    color: teal;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    margin-top: 30px;
+  }
